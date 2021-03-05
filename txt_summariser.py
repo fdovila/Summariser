@@ -1,5 +1,5 @@
 # Source: https://huggingface.co/human-centered-summarization/financial-summarization-pegasus
-# You need Python 3.8 with the following packages via PIP: torch, tensorflow, and sentencepiece
+# You need Python 3.8.5 with the following packages via PIP: torch, tensorflow, and sentencepiece
 # It takes ~1m for 300 words texts on CPU (i5). GPU should run much faster
 
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
